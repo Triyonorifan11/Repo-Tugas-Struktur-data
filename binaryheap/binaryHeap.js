@@ -67,12 +67,14 @@ class Heap {
 
 const heaptes = new Heap()
 console.log(heaptes)
-heaptes.pushHeap(25)
+heaptes.pushHeap(7)
+heaptes.pushHeap(3)
+heaptes.pushHeap(4)
+heaptes.pushHeap(1)
+heaptes.pushHeap(2)
+heaptes.pushHeap(6)
 heaptes.pushHeap(5)
-heaptes.pushHeap(40)
-heaptes.pushHeap(70)
-heaptes.pushHeap(90)
-heaptes.pushHeap(44)
+heaptes.pushHeap(8)
 
 console.log(heaptes.dataHeap.join(','))
 
@@ -82,8 +84,11 @@ heapdwonTest.push(heaptes.poll())
 heapdwonTest.push(heaptes.poll())
 heapdwonTest.push(heaptes.poll())
 heapdwonTest.push(heaptes.poll())
+heapdwonTest.push(heaptes.poll())
+heapdwonTest.push(heaptes.poll())
+heapdwonTest.push(heaptes.poll())
 
 
-console.log('Top 5 item:', heapdwonTest)
+console.log('Binary Heap item:', heapdwonTest)
 console.log(heaptes.dataHeap.join(','))
 

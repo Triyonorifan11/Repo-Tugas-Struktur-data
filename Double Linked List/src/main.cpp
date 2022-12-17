@@ -155,13 +155,13 @@ int main()
     cout << "\n"
          << endl;
 
-    // cout << "===== Update First data ======" << endl;
-    // updateFirstAntrian("Riyonali", 10);
-    // printAllAntrian();
-    // cout << "\n" << endl;
+    cout << "===== Update First data ======" << endl;
+    updateFirstAntrian("Riyonali", 10);
+    printAllAntrian();
+    cout << "\n" << endl;
 
-    // cout << "===== Update Last data ======" << endl;
-    // updateLastAntrian("Alii", 15);
-    // printAllAntrian();
-    // cout << "\n" << endl;
+    cout << "===== Update Last data ======" << endl;
+    updateLastAntrian("Alii", 15);
+    printAllAntrian();
+    cout << "\n" << endl;
 }
